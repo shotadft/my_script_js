@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function()
 
 <h3>サンプル</h3>
 
-```html:sample1.html
+```html
 <!DOCTYPE html>
 <html>
   <head>
