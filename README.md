@@ -3,7 +3,7 @@
 言語によって価格を表示させるスクリプト。ウェブページ用。<br />
 先に以下のコードを&lt;head&gt;に記入する。
 <br /><br />
-&lt;script src=&quot;https://www.shotadft.com/my_script_js/script/app_prc.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;[https://www.shotadft.com/my_script_js/script/app_prc.js](https://www.shotadft.com/my_script_js/script/app_prc.js)&quot;&gt;&lt;/script&gt;
 <br />
 &lt;script&gt;Price(id名, 価格);&lt;/script&gt;
 <br /><br />
