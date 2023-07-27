@@ -1,3 +1,4 @@
+⚠未完成⚠
 僕が作ったJavascript類<br /><br />
 ・[app_prc.js](https://www.shotadft.com/my_script_js/script/app_prc.js)
 言語によって価格を表示させるスクリプト。ウェブページ用。<br />
