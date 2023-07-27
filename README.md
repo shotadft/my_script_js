@@ -12,17 +12,16 @@
 <p><b>例：</b></p>
 
 ```html
-<head>
+<!--- 前略 --->
+<body>
 <script>
 document.addEventListener("DOMContentLoaded", function()
   {
     window.globalFunction.Price(id名1, 表示価格);
   });
 </script>
-</head>
-<body>
 <!--- 中略 --->
-<div id=id名1></div>
+<div id="id名1"></div>
 <!--- 中略 --->
 </body>
 ```
