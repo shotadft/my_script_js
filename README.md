@@ -1,0 +1,2 @@
+# my_script_js_byShotadft
+僕が作ったJavascript類
