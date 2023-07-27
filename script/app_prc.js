@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     replyDivided.appendChild(paragraph);
 }
+});
 
 window.globalFunction = {};
 window.globalFunction.Price = Price;
-});
