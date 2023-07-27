@@ -1,4 +1,5 @@
-<p>僕が作ったスクリプト類</p>
+<p>僕が作ったスクリプト類。<br />
+自作発言禁止。</p>
 <h2><a href="https://www.shotadft.com/my_script_js/script/app_prc.js">app_prc.js</a></h2>
 <p>言語によって価格表示を変え、表示させるスクリプト。ウェブページ用。</p>
 <h3>導入</h3>
@@ -54,6 +55,8 @@ document.addEventListener("DOMContentLoaded", function()
 <iframe
   src="https://www.shotadft.com/my_script_js/SampleSite/Sample1.html"
   title="Sample1"
-  width="875"
-  height="300">
+  width="575"
+  height="120">
 </iframe>
+<hr />
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><p>この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス</a>の下に提供されています。</p>
