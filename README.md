@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function()
 <iframe
   src="https://www.shotadft.com/my_script_js/SampleSite/Sample1.html"
   title="Sample1"
-  width="575"
+  width="360"
   height="120">
 </iframe>
 <hr />
