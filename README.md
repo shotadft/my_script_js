@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function()
     </script>
   </head>
   <body>
-    <div id=id名1></div>
+    <div id="A"></div>
   </body>
 </html>
 ```
