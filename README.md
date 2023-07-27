@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function()
 
 <h3>サンプル</h3>
 
-```html
+```html:sample1.html
 <!DOCTYPE html>
 <html>
   <head>
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function()
 ```
 <p><b>サンプルの実行結果</b></p>
 <iframe
-  src="https://www.shotadft.com/my_script_js/SampleSite/Sample1.html"
+src="https://www.shotadft.com/my_script_js/SampleSite/Sample1.html"
   title="Sample1"
   width="360"
   height="120">
