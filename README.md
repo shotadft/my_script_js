@@ -18,11 +18,11 @@
 <script>
 document.addEventListener("DOMContentLoaded", function()
   {
-    window.globalFunction.Price(id名1, 表示価格);
+    window.globalFunction.Price('id名', 表示価格);
   });
 </script>
 <!--- 中略 --->
-<div id="id名1"></div>
+<div id="id名"></div>
 <!--- 中略 --->
 </body>
 ```
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function()
 ```
 <p><b>サンプルの実行結果</b></p>
 <iframe
-src="https://www.shotadft.com/my_script_js/SampleSite/Sample1.html"
+src="https://www.shotadft.com/my_script_js/SampleSite/sample1.html"
   title="Sample1"
   width="360"
   height="120">
