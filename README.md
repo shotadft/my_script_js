@@ -37,14 +37,15 @@ document.addEventListener("DOMContentLoaded", function()
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <script>
+    <script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
+  </head>
+  <body>
+      <script>
       document.addEventListener("DOMContentLoaded", function()
       {
           window.globalFunction.Price('A', 500);
       });
     </script>
-  </head>
-  <body>
     <div id="A"></div>
   </body>
 </html>
@@ -54,5 +55,5 @@ document.addEventListener("DOMContentLoaded", function()
   src="https://www.shotadft.com/my_script_js/SampleSite/Sample1.html"
   title="Sample1"
   width="400"
-  height="300">
+  height="875">
 </iframe>
