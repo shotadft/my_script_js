@@ -49,3 +49,10 @@ document.addEventListener("DOMContentLoaded", function()
   </body>
 </html>
 ```
+<p><b>サンプルの実行結果</b></p>
+<iframe
+  src="https://www.shotadft.com/my_script_js/SampleSite/Sample1.html"
+  title="Sample1"
+  width="400"
+  height="300">
+</iframe>
