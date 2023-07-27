@@ -2,7 +2,8 @@
 <h2><a href="https://www.shotadft.com/my_script_js/script/app_prc.js">app_prc.js</a></h2>
 <p>言語によって価格表示を変え、表示させるスクリプト。ウェブページ用。</p>
 <h3>導入</h3>
-<p>先に以下のコードを&lt;head&gt;に記入する。</p>
+<p>先に以下のコードを&lt;body&gt;に記入する。<br />
+基本、&lt;script&gt;は&lt;head&gt;に記入するが、エラー回避のため&lt;body&gt;に記入する。</p>
 
 ```html
 <script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
@@ -37,9 +38,9 @@ document.addEventListener("DOMContentLoaded", function()
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
   </head>
   <body>
+      <script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
       <script>
       document.addEventListener("DOMContentLoaded", function()
       {
