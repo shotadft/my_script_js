@@ -7,7 +7,7 @@
 基本、&lt;script&gt;は&lt;head&gt;に記入するが、エラー回避のため&lt;body&gt;に記入する。</p>
 
 ```html
-<script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
+<script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
 ```
 <p>次にコードを入力する。</p>
 <p><b>例：</b></p>
@@ -15,7 +15,7 @@
 ```html
 <!--- 前略 --->
 <body>
-      <script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
+      <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
       <script type="module">
         import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
         Price('A', 500);
@@ -38,7 +38,7 @@
     <title>Sample1</title>
   </head>
   <body>
-      <script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
+      <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
       <script type="module">
         import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
         Price('A', 500);
