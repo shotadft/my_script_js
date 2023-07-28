@@ -6,12 +6,10 @@
     <title>Sample1</title>
   </head>
   <body>
-      <script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
+      <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
       <script>
-      document.addEventListener("DOMContentLoaded", function()
-      {
-          window.globalFunction.Price('A', 500);
-      });
+        import { Price } from 'app_prc.js';
+        Price('A', 500);
     </script>
     <div id="A"></div>
   </body>
