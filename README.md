@@ -43,8 +43,10 @@
       <script type="module">
         import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
         Price('A', 500);
+        Price('B', 0);
     </script>
     <div id="A"></div>
+    <div id="B"></div>
   </body>
 </html>
 ```
