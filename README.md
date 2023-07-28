@@ -15,15 +15,12 @@
 ```html
 <!--- 前略 --->
 <body>
-<script>
-document.addEventListener("DOMContentLoaded", function()
-  {
-    window.globalFunction.Price('id名', 表示価格);
-  });
-</script>
-<!--- 中略 --->
+      <script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
+      <script type="module">
+        import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
+        Price('A', 500);
+    </script>
 <div id="id名"></div>
-<!--- 中略 --->
 </body>
 ```
 <p><b>置き換え</b></p>
@@ -38,14 +35,13 @@ document.addEventListener("DOMContentLoaded", function()
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <title>Sample1</title>
   </head>
   <body>
       <script src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
-      <script>
-      document.addEventListener("DOMContentLoaded", function()
-      {
-          window.globalFunction.Price('A', 500);
-      });
+      <script type="module">
+        import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
+        Price('A', 500);
     </script>
     <div id="A"></div>
   </body>
