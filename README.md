@@ -19,7 +19,8 @@
       <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
       <script type="module">
         import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
-        Price('id名', 500);
+
+        Price('id名', 数値);
     </script>
 <div id="id名"></div>
 </body>
@@ -42,6 +43,7 @@
       <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
       <script type="module">
         import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
+
         Price('A', 500);
         Price('B', 0);
     </script>
