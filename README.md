@@ -42,10 +42,16 @@
   <body>
       <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
       <script type="module">
-        import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
+// importで関数を呼び出し
+        import { Price, freeprice_event } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
 
+// 関数定義
+// Price(string, int);
         Price('A', 500);
         Price('B', 0);
+
+// 「無料」表示の切り替え
+        freeprice_event = true;
     </script>
     <div id="A"></div>
     <div id="B"></div>
