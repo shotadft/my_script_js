@@ -51,6 +51,6 @@ export function Price(Divided, Price_n) {
 	});
 }
 
-export function setFreePrice_text(bool_text) {
-	this.bool_text = bool_text;
+export function setFreePrice_text(bool_selected_text_i) {
+	this.bool_selected_text_i = Boolean(bool_selected_text_i);
 }
