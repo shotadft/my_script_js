@@ -4,37 +4,25 @@
 <p>言語によって価格表示を変え、表示させるスクリプト。ウェブページ用。<br />
 日本では&yen;、中国だと元、その他の言語だと$が表示されます。<br />ついでに複数の表示を別々のものにできます。</p>
 <h3>導入</h3>
-<p>先に以下のコードを&lt;body&gt;に記入する。<br />
+<p>以下のコードを&lt;body&gt;に記入する。<br />
 基本、&lt;script&gt;は&lt;head&gt;に記入するが、エラー回避のため&lt;body&gt;に記入する。</p>
 
 ```html
 <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
 ```
-<p>次にコードを入力する。</p>
-<p><b>例：</b></p>
+<p>なお、&lt;div&gt;にid要素を入れないと動作しないので要注意。</p>
 
-```html
-<!--- 前略 --->
-<body>
-      <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
-      <script type="module">
-        import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
+<h3>プロパティ</h3>
+<p><b>必須プロパティ</b></p>
 
-        Price('id名', 数値);
-    </script>
-<div id="id名"></div>
-</body>
-```
-<p><b>置き換え</b></p>
-<p>id名=文字列<br />
-表示価格=数値</p>
+| プロパティ名 | 属性        | 説明                                                               | 構文                | サポート       | 
+| ------------ | ----------- | ------------------------------------------------------------------ | ------------------- | -------------- | 
+| Price        | string, int | string = &lt;div id="string"&gt;&lt;/div&gt;<br><br>このスクリプトのメイン関数です。 | Price(string, int); | **サポート中** | 
+<p><b>推奨プロパティ</b></p>
 
-<p><b>オプション</b></p>
-
-| オプション名    | 属性 | 説明・使用用途                                             | 構文 |
-| --------------- | ---- | ---------------------------------------------------------- | ---- | 
-| setFreePrice_text | bool | true / false で価格が0だった場合に無料表記をつけるかどうか | setFreePrice_text(boolean); |
-
+| プロパティ名     | 属性                 | 説明                                        | 構文                        | サポート                | 
+| ---------------- | -------------------- | ------------------------------------------- | --------------------------- | ----------------------- | 
+| setFreePriceText | bool<br />true or false | 価格が0だった場合に無料表記をつけるかどうか | setFreePriceText = Boolean; | **非サポート** - 開発中 | 
 <h3>サンプル</h3>
 
 ```html
@@ -52,12 +40,8 @@
         import { Price, setFreePrice_text } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
 
 // 関数定義
-// Price(string, int);
         Price('A', 500);
         Price('B', 0);
-
-// 「無料」表示の切り替え
-        setFreePrice_text(true);
     </script>
     <div id="A"></div>
     <div id="B"></div>
