@@ -17,12 +17,12 @@
 
 | プロパティ名 | 属性        | 説明                                                               | 構文                | サポート       | 
 | ------------ | ----------- | ------------------------------------------------------------------ | ------------------- | -------------- | 
-| Price        | string, int | string = &lt;div id="string"&gt;&lt;/div&gt;<br><br>このスクリプトのメイン関数です。 | Price(string, int); | **サポート中** | 
+| Price        | string, int | このスクリプトのメイン関数です。<br/><br /> string = &lt;div id="string"&gt;&lt;/div&gt; | Price(string, int); | **サポート中** | 
 <p><b>推奨プロパティ</b></p>
 
 | プロパティ名     | 属性                 | 説明                                        | 構文                        | サポート                | 
 | ---------------- | -------------------- | ------------------------------------------- | --------------------------- | ----------------------- | 
-| setFreePriceText | bool<br />true or false | 価格が0だった場合に無料表記をつけるかどうか | setFreePriceText = Boolean; | **非サポート** - 開発中 | 
+| setFreePriceText | bool<br />true or false | 価格が0だった場合に無料表記をつけるかどうか<br />現在使用不可 | setFreePriceText = Boolean; | **非サポート** - 開発中 | 
 <h3>サンプル</h3>
 
 ```html
