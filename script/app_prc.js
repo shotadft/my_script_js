@@ -1,7 +1,7 @@
 let use_language = window.navigator.language;
 var language_money = 'undefined';
 var freeprice_text = 'Free';
-export var freeprice_event = false;
+export var freeprice_event = 0;
 
 if (use_language === 'ja-JP' || use_language === 'ja')
 {
@@ -26,7 +26,7 @@ export function Price(Divided, Price_n){
     	const replyDivided = document.getElementById(this.Divided);
     
     	var paragraph = document.createElement('p');
-	if (this.Price_n === 0 && !freeprice_event) 
+	if (this.Price_n === 0 && freeprice_event >= 1) 
 	{
     		if (use_language === 'zh' || use_language === 'zh-Hans' || use_language === 'zh-SG' || use_language === 'zh-CN' || use_language === 'zh-Hant' || use_language === 'zh-HK' || use_language === 'zh-TW' || use_language === 'zh-MO')
     		{
@@ -37,7 +37,8 @@ export function Price(Divided, Price_n){
 			paragraph.innerText = language_money + Price_n + '(' + freeprice_text + ')';
     		}
 	}
-	else{
+	else
+	{
     		if (use_language === 'zh' || use_language === 'zh-Hans' || use_language === 'zh-SG' || use_language === 'zh-CN' || use_language === 'zh-Hant' || use_language === 'zh-HK' || use_language === 'zh-TW' || use_language === 'zh-MO')
     		{
 			paragraph.innerText = Price_n + language_money;
