@@ -26,18 +26,18 @@ export function Price(Divided, Price_n) {
     	const replyDivided = document.getElementById(this.Divided);
     
     	var paragraph = document.createElement('p');
-//	if (this.Price_n === 0 && setFreePrice_text.setFreePriceText === true) 
-//	{
+	if (this.Price_n === 0) 
+	{
     		if (use_language === 'zh' || use_language === 'zh-Hans' || use_language === 'zh-SG' || use_language === 'zh-CN' || use_language === 'zh-Hant' || use_language === 'zh-HK' || use_language === 'zh-TW' || use_language === 'zh-MO')
     		{
-			paragraph.innerText = Price_n + '(' + freeprice_text + ')' + language_money;
+			paragraph.innerText = Price_n + '(' + freePrice_text + ')' + language_money;
     		}
     		else
     		{
-			paragraph.innerText = language_money + Price_n + '(' + freeprice_text + ')';
+			paragraph.innerText = language_money + Price_n + '(' + freePrice_text + ')';
     		}
-//	}
-/*	else
+	}
+	else
 	{
     		if (use_language === 'zh' || use_language === 'zh-Hans' || use_language === 'zh-SG' || use_language === 'zh-CN' || use_language === 'zh-Hant' || use_language === 'zh-HK' || use_language === 'zh-TW' || use_language === 'zh-MO')
     		{
@@ -48,6 +48,6 @@ export function Price(Divided, Price_n) {
 			paragraph.innerText = language_money + Price_n;
     		}
 	}
-*/    	replyDivided.appendChild(paragraph);
+   	replyDivided.appendChild(paragraph);
 	});
 }
