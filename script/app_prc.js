@@ -6,17 +6,17 @@ let setFreePriceText = false;
 if (use_language === 'ja-JP' || use_language === 'ja')
 {
 	language_money = '\xA5';
-	freeprice_text = '無料';
+	freePrice_text = '無料';
 }
 else if (use_language === 'zh' || use_language === 'zh-Hans' || use_language === 'zh-SG' || use_language === 'zh-CN' || use_language === 'zh-Hant' || use_language === 'zh-HK' || use_language === 'zh-TW' || use_language === 'zh-MO')
 {
 	language_money = '元';
-	freeprice_text = '免费';
+	freePrice_text = '免费';
 }
 else
 {
 	language_money = '\x24';
-	freeprice_text = 'Free';
+	freePrice_text = 'Free';
 }
 
 export function Price(Divided, Price_n) {
