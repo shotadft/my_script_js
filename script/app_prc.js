@@ -1,7 +1,7 @@
 let use_language = window.navigator.language;
 var language_money = 'undefined';
 var freePrice_text = 'Free';
-let setFreePrice_event = false;
+let setFreePriceText = false;
 
 if (use_language === 'ja-JP' || use_language === 'ja')
 {
@@ -26,8 +26,8 @@ export function Price(Divided, Price_n) {
     	const replyDivided = document.getElementById(this.Divided);
     
     	var paragraph = document.createElement('p');
-	if (this.Price_n === 0 && setFreePrice_text.bool_selected_text_i >= 1) 
-	{
+//	if (this.Price_n === 0 && setFreePrice_text.setFreePriceText === true) 
+//	{
     		if (use_language === 'zh' || use_language === 'zh-Hans' || use_language === 'zh-SG' || use_language === 'zh-CN' || use_language === 'zh-Hant' || use_language === 'zh-HK' || use_language === 'zh-TW' || use_language === 'zh-MO')
     		{
 			paragraph.innerText = Price_n + '(' + freeprice_text + ')' + language_money;
@@ -36,8 +36,8 @@ export function Price(Divided, Price_n) {
     		{
 			paragraph.innerText = language_money + Price_n + '(' + freeprice_text + ')';
     		}
-	}
-	else
+//	}
+/*	else
 	{
     		if (use_language === 'zh' || use_language === 'zh-Hans' || use_language === 'zh-SG' || use_language === 'zh-CN' || use_language === 'zh-Hant' || use_language === 'zh-HK' || use_language === 'zh-TW' || use_language === 'zh-MO')
     		{
@@ -48,6 +48,6 @@ export function Price(Divided, Price_n) {
 			paragraph.innerText = language_money + Price_n;
     		}
 	}
-    	replyDivided.appendChild(paragraph);
+*/    	replyDivided.appendChild(paragraph);
 	});
 }
