@@ -1,6 +1,7 @@
 <p>僕が作ったスクリプト類。
 <br />自作発言等禁止。</p>
-<h2><a href="https://www.shotadft.com/my_script_js/script/app_prc.js">app_prc.js</a></h2>
+
+## [app_prc.js](https://www.shotadft.com/my_script_js/script/app_prc.js)
 <p>言語によって価格表示を変え、表示させるスクリプト。ウェブページ用。<br />
 日本では&yen;、中国だと元、その他の言語だと$が表示されます。<br />ついでに複数の表示を別々のものにできます。</p>
 <h3>導入</h3>
@@ -37,7 +38,7 @@
       <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
       <script type="module">
 // importで関数を呼び出し
-        import { Price, setFreePrice_text } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
+        import { Price } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
 
 // 関数定義
         Price('A', 500);
