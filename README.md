@@ -66,7 +66,7 @@
 ```
 <p><b>サンプルの実行結果</b></p>
 <iframe
-src="https://www.shotadft.com/my_script_js/SampleSite/sample1.html"
+src="https://www.shotadft.com/my_script_js/SampleSite/app_prc_js/sample1.html"
   title="Sample1"
   width="360"
   height="120">
