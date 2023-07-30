@@ -31,9 +31,9 @@
 
 <p><b>オプション</b></p>
 
-| オプション名    | 属性 | 説明・使用用途                                             | 
-| --------------- | ---- | ---------------------------------------------------------- | 
-| freeprice_event | bool | true / false で価格が0だった場合に無料表記をつけるかどうか | 
+| オプション名    | 属性 | 説明・使用用途                                             | 構文 |
+| --------------- | ---- | ---------------------------------------------------------- | ---- | 
+| setFreePrice_text | bool | true / false で価格が0だった場合に無料表記をつけるかどうか | setFreePrice_text(boolean); |
 
 <h3>サンプル</h3>
 
@@ -49,7 +49,7 @@
       <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
       <script type="module">
 // importで関数を呼び出し
-        import { Price, freeprice_event } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
+        import { Price, setFreePrice_text } from 'https://www.shotadft.com/my_script_js/script/app_prc.js';
 
 // 関数定義
 // Price(string, int);
@@ -57,7 +57,7 @@
         Price('B', 0);
 
 // 「無料」表示の切り替え
-        freeprice_event = true;
+        setFreePrice_text(true);
     </script>
     <div id="A"></div>
     <div id="B"></div>
