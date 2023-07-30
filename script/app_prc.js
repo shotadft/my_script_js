@@ -1,7 +1,6 @@
 let use_language = window.navigator.language;
 var language_money = 'undefined';
 var freeprice_text = 'Free';
-export let freeprice_event = false;
 
 if (use_language === 'ja-JP' || use_language === 'ja')
 {
@@ -19,7 +18,7 @@ else
 	freeprice_text = 'Free';
 }
 
-export function Price(Divided, Price_n){
+export function Price(Divided, Price_n) {
 	document.addEventListener("DOMContentLoaded", function() {
     	this.Price_n = Price_n;
     	this.Divided = Divided;
@@ -50,4 +49,9 @@ export function Price(Divided, Price_n){
 	}
     	replyDivided.appendChild(paragraph);
 	});
+}
+
+export function setFreePrice_text(bool_text) {
+	bool_text = false;
+	this.bool_text = bool_text;
 }
