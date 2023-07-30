@@ -1,5 +1,7 @@
 <p>僕が作ったスクリプト類。
 <br />自作発言等禁止。</p>
+<p>無印が非圧縮、min付きが圧縮版。<br />
+基本は圧縮版を使うと良い。</p>
 
 ## [app_prc.js](https://www.shotadft.com/my_script_js/script/app_prc.js)
 <p>言語によって価格表示を変え、表示させるスクリプト。ウェブページ用。<br />
@@ -10,6 +12,11 @@
 
 ```html
 <script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.js"></script>
+```
+or
+
+```html
+<script type="module" src="https://www.shotadft.com/my_script_js/script/app_prc.min.js"></script>
 ```
 <p>なお、&lt;div&gt;にid要素を入れないと動作しないので要注意。</p>
 
